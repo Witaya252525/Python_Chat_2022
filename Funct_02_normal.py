@@ -1,5 +1,5 @@
 
-'''
+
 text = "Today is Sunday. I stay at home and keep coding . Today is Monday. I stay at office and keep cleaning but still keep singing . "
 start_pos = 0
 word = "keep"
@@ -17,4 +17,3 @@ text = text[text.find(word,start_pos) + len(word)+1:]
 next_word = text[   :text.find(" ")]
 print(text)
 print(next_word)
-'''
