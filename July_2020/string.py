@@ -7,6 +7,6 @@
 
 
 s = "Hello World"
-print(s[0])
-print(s[0:5])
-print(s[-5])
+for i in range(len(s)):
+    if s[i] =="W":
+        print(s[i:])
