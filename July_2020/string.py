@@ -15,5 +15,6 @@
 
 text = "Today is Sunday. I stay at home and keep coding. "
 word ="keep"
-next_word = text[text.find(word )+ len(word)+1 : ]
+text= text[text.find(word )+ len(word)+1 : ]
+next_word = text[ :text.find(" ")]
 print(next_word)
