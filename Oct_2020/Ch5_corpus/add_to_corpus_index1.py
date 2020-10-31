@@ -6,9 +6,9 @@ def add_to_corpus_index(corpus_index,word,next_word):
         if el[0] == word :
             el[1].append(next_word)
             return
-    else:
+    
 
-        corpus_index.append([word,[next_word]])
+    corpus_index.append([word,[next_word]])
 
 
 def add_all_to_corpus_index(corpus_index,corpus):
