@@ -14,8 +14,6 @@ def add_to_corpus_index (key,next_word,corpus_index):
             corpus_index[key][next_word]= 1
 
 
-
-
 corpus_index = {}
 add_to_corpus_index ("Today" ,'is', corpus_index)
 add_to_corpus_index ("is" ,'Sunday', corpus_index)
