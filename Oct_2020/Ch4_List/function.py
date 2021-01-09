@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 
@@ -18,7 +17,6 @@ print ("pi = %0.4f  , radius =%d " %(pi,radius))
 
 
 
-=======
 
 
 
@@ -38,4 +36,3 @@ print ("pi = %0.4f  , radius =%d " %(pi,radius))
 
 
 
->>>>>>> ed0daa58b012cca843f4066776d2bfe28585b88e
