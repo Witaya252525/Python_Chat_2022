@@ -15,6 +15,8 @@ def string_hash(key,hash_table):
     return hashed_value
 
 
+
+#find slot and add key at that slot
 def add_to_hash_table(key,hash_table):
     slot = string_hash(key,hash_table)
     hash_table[slot] = key
@@ -28,16 +30,12 @@ def add_to_hash_table(key,hash_table):
 #         None
 
 def lookup(key,hash_table):
-    slot = string_hash(key , hash_table)
+    slot = string_hash(key,hash_table)
     if (hash_table[slot] == None):
         return None
 
     else:
         return slot
-
-
-
-
 
 
 

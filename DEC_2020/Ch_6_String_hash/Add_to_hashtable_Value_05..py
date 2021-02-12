@@ -18,11 +18,8 @@ def string_hash(key,hash_table):
 
 
 
-
-
-
 def add_to_hash_table(key,value,hash_table):
-    slot = string_hash(key,hash_table)
+    slot = string_hash(key,hash_table) # find_hash_value
     hash_table[slot] = [key,value]
 
 
