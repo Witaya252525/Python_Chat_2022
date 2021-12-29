@@ -27,11 +27,11 @@ def add_to_corpus_index (corpus_index , word ,next_word):
 
 
 corpus_index = []
-add_to_corpus_index (corpus_index , "keep" , "coding")
-add_to_corpus_index (corpus_index , "Today" , "is")
-add_to_corpus_index (corpus_index , "keep" , "cleaning")
-add_to_corpus_index (corpus_index , "keep" , "witaya")
-print(corpus_index)
+#add_to_corpus_index (corpus_index , "keep" , "coding")
+#add_to_corpus_index (corpus_index , "Today" , "is")
+#add_to_corpus_index (corpus_index , "keep" , "cleaning")
+#add_to_corpus_index (corpus_index , "keep" , "witaya")
+#print(corpus_index)
 
 
 
