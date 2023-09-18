@@ -1,6 +1,6 @@
-print / PEMDAS
-Variable / String / Corpus / Sub_String / string1.find(string2 , start , Final) / Index of string /index out of range
-Control logic /While /If / len()
-%s  %d  %(a,b)
+1.print / PEMDAS
+2.Variable / String / Corpus / Sub_String / string1.find(string2 , start , Final) / Index of string /index out of range /%s  %d  %(a,b)
+3.Control logic /While /If / len()
+
 
 
