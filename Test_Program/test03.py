@@ -44,10 +44,6 @@ def find_next_word(text, word, start_pos):
 
 
 
-
-
-
-
     else:
         print(" ")
         # return "" , -1
