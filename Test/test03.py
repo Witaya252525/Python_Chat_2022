@@ -58,6 +58,9 @@ def find_next_word(text, word, start_pos):
 start_pos = 0
 text = "Today is Sunday i stay at home and keep coding Today is Monday  I stay at office and keep cycling but still keep playing."
 word = "keep"
-text, start_pos = find_next_word(text, word, start_pos)
-text, start_pos = find_next_word(text, word, start_pos)
-text, start_pos = find_next_word(text, word, start_pos)
+# text, start_pos = find_next_word(text, word, start_pos)
+# text, start_pos = find_next_word(text, word, start_pos)
+# text, start_pos = find_next_word(text, word, start_pos)
+while text.find(" ") != -1 :
+    text, start_pos = find_next_word(text, word, start_pos)
+print("YOU are Awesome Man")

@@ -1,6 +1,6 @@
 1.print / PEMDAS
 2.Variable / String / Corpus / Sub_String / string1.find(string2 , start , Final) / Index of string /index out of range /%s  %d  %(a,b)
-3.Control logic /While /If / len() /Function /Global and local /infunction and outfunction
+3.Control logic /While /If / len() /Function /Global and local /infunction and outfunction /logical logic
 
 
 
