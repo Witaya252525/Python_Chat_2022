@@ -3,8 +3,7 @@
 3.Control logic /While /If / len() /Function /Global and local /infunction and outfunction /logical logic
 / how to use Compare file in vs code
 4.chapter 4 # list , nested list ,Mutable ? , string doed not support item assignment  but list can do string can do the point Function ..
-list.append() , 
+list.append() , pointer ,addtional 
                 
-
 
 
