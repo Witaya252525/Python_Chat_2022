@@ -8,16 +8,12 @@ def add_to_corpus_index(corpus_index, word, next_word):
     corpus_index.append([word, [next_word]])
 
 
-
 def add_all_to_corpus_index(corpus_index, corpus):
     splitted_text = corpus.split()
     for i in range(len(splitted_text)-1):
         word = splitted_text[i]
         next_word = splitted_text[i+1]
         add_to_corpus_index(corpus_index, word, next_word)
-
-
-
 
 
 def lookup(corpus_index, word):
