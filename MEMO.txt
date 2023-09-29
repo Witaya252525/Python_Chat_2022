@@ -4,6 +4,8 @@
 / how to use Compare file in vs code
 4.chapter 4 # list , nested list ,Mutable ? , string doed not support item assignment  but list can do string can do the point Function ..
 list.append() , pointer ,addtional 
+5.Corpus index 
+6.Hash-table  / Random access /Sequential access
                 
 
 

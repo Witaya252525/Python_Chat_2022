@@ -20,6 +20,8 @@ def lookup(corpus_index, word):
     for el in corpus_index:
         if el[0] == word:
             return el[1]
+        
+    return None
 
 
 corpus = " Today is Sinday  I stay at home and keep coding Todau is Monday I stay at office and keep cleaning Today I stay awake "
