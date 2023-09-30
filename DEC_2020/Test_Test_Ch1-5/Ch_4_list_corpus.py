@@ -12,6 +12,10 @@ def find_all (corpus,word):
 
 
 
+
+
+
+
 corpus = ' Today is Sunday I stay at home and keep coding Today is Monday I stay office and keep cleaning  and also keep witaya'     
 result = find_all (corpus , "keep")
 print(result)    
