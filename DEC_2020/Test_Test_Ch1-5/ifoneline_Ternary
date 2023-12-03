@@ -1,0 +1,49 @@
+# Ternary expression
+# varible = True then condition else condition
+
+# age = 14
+# if age >= 18:
+#     can_vote = True
+#     print(can_vote)
+# else:
+#     can_vote = False
+#     print(can_vote)
+
+
+
+# a = 5
+# b = 10
+# c = [ a if a > b  else b  for x in range(0,10)]
+# print(c)
+
+
+
+# a = [x if  x%2== 0  else  x%2==1  for x in range(0,12)]
+# #divided by 2 retuen numner if remain 1 is return True
+# print(a)
+# print("witaya")
+# a = [x if  x%2== 0  else  x%2==5  for x in range(0,12)]
+# #divided by 2 retuen numner if remain 1 is return True
+# print(a)
+
+# f =[ i for i in range(0,20)  if i%2 == 0 ]
+# # print(f)
+# odd,even =[o for o in range (0,10) if o%2==0],[W for W in range (0,10) if W%2==1]
+# print(f'odd ={odd} \neven ={even}' )
+
+
+# age =19
+# print("go home") == True if age < 16 else print("Korat")
+
+
+# def print_stuff():
+#     print('go home now')
+
+# age =19
+# if age > 16 : print_stuff()
+
+# age =19
+# outcome = 'Go home ' if age > 16  else " welcome "
+# print(outcome)
+
+
